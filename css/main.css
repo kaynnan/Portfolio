@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scrollbar-color: rgba(78, 18, 255, .2) hsla(0, 0%, 100%, .1);
+    scrollbar-width: thin;
 }
 
 body {
