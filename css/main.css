@@ -9,7 +9,7 @@
 }
 
 body {
-    background: black;
+    background: #121212;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -19,13 +19,13 @@ body {
 }
 
 section {
-    background: black;
+    background: #121212;
     min-height: 100vh !important;
-    padding: 60px 0;
+    margin-bottom: 40px;
 }
 
 nav {
-    background: black !important;
+    background: #121212 !important;
 }
 
 nav a,
@@ -34,16 +34,9 @@ span {
 }
 
 nav a:hover {
-    transition: 0.8s;
-    border-bottom: 1px solid #4E12FF;
+    color: #4E12FF !important;
 }
 
-ul,
-ol {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
 
 .navbar-brand {
     font-size: 24px;
@@ -65,10 +58,6 @@ ol {
 
 .roxo-btn {
     background: #4E12FF;
-    border-radius: 80px;
-    font-size: 12px;
-    width: 120px;
-    padding: 15px;
 }
 
 .roxo-txt {
@@ -83,7 +72,6 @@ ol {
 
 .info h3 {
     color: #4E12FF;
-    ;
 }
 
 .info p {
@@ -116,7 +104,6 @@ ol {
 }
 
 .servicos {
-    height: 255px !important;
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid white;
@@ -133,12 +120,10 @@ ol {
 }
 
 .servicos:hover {
-    transition: 0.8s;
     border: 1px solid #4E12FF;
 }
 
 .servicos:hover h3 {
-    transition: 0.8s;
     color: #4E12FF;
 }
 
@@ -150,30 +135,11 @@ ol {
     line-height: 22px;
 }
 
+
+
 .icone img {
     width: 60px;
     height: 60px;
-}
-
-.sobre-perfil {
-    margin-bottom: 15px;
-}
-
-.sobre-perfil .pro-title {
-    font-weight: 600;
-    position: relative;
-    width: 128px;
-    display: inline-block;
-    margin-bottom: 10px;
-    color: #222;
-}
-
-.sobre-perfil .pro-title::after {
-    position: absolute;
-    content: ':';
-    color: #fff;
-    font-size: 14px;
-    left: 88px;
 }
 
 @media screen and (max-width: 1680px) {}
@@ -198,6 +164,7 @@ ol {
     }
 
     .home {
+        padding-top: 15px;
         flex-direction: column;
     }
 
@@ -205,5 +172,4 @@ ol {
         width: 350px;
         height: 400px;
     }
-
 }
