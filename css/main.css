@@ -5,17 +5,23 @@
     font-family: 'Poppins', sans-serif;
     scrollbar-color: rgba(78, 18, 255, .2) hsla(0, 0%, 100%, .1);
     scrollbar-width: thin;
+    color: white;
 }
 
 body {
     background: black;
     min-height: 100vh;
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
 
 section {
     background: black;
     min-height: 100vh !important;
+    margin-bottom: 40px;
 }
 
 nav {
@@ -25,6 +31,37 @@ nav {
 nav a,
 span {
     color: white !important;
+}
+
+nav a:hover {
+    color: #4E12FF !important;
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4E12FF;
+    font-weight: 700;
+}
+
+.nav-item a {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: left;
+    word-spacing: 0;
+    color: #4E12FF;
+    font-weight: 600;
+}
+
+.roxo-btn {
+    background: #4E12FF;
+}
+
+.roxo-txt {
+    color: #4E12FF !important;
 }
 
 .home {
@@ -57,6 +94,54 @@ span {
     border-radius: 8px;
 }
 
+.card-servicos h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+.servicos {
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 30px 25px;
+    margin-bottom: 30px;
+}
+
+.servicos div {
+    margin: 10px 0;
+}
+
+.servicos-conteudo h3 {
+    font-size: 18px;
+}
+
+.servicos:hover {
+    border: 1px solid #4E12FF;
+}
+
+.servicos:hover h3 {
+    color: #4E12FF;
+}
+
+.servicos p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+
+.icone img {
+    width: 60px;
+    height: 60px;
+}
 
 @media screen and (max-width: 1680px) {}
 
