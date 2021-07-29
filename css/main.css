@@ -9,7 +9,7 @@
 }
 
 body {
-    background: black;
+    background: #121212;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -19,13 +19,13 @@ body {
 }
 
 section {
-    background: black;
+    background: #121212;
     min-height: 100vh !important;
     margin-bottom: 40px;
 }
 
 nav {
-    background: black !important;
+    background: #121212 !important;
 }
 
 nav a,
