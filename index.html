@@ -17,6 +17,13 @@
     <!-- FIM DA IMPORTAÇÃO DAS FONTES -->
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'js/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
     <title>Kaynnan Bardauil | Portfolio</title>
 </head>
 
@@ -52,12 +59,14 @@
         </div>
     </nav>
     <!-- SEÇÃO INICIAL -->
-    <section id="home" class="text-white d-flex justify-content-center align-items-center">
-        <div class="container home">
+    <section id="particles-js" class="text-white d-flex justify-content-center align-items-center">
+
+        <div id="home" class="container home">
             <div class="container  info col-lg-6 col-md-12">
                 <h3 class="">Olá,</h3>
                 <h1>Eu sou Kaynnan Bardauil</h1>
-                <p>Sou um desenvolvedor Back-end, com experiência há menos de 1 ano. Minha especialdade também inclui a
+                <p>Sou um desenvolvedor Back-end, com experiência há menos de 1 ano. Minha especialdade também
+                    inclui a
                     criação de sites, UI/UX Designer e muito mais...
                 </p>
                 <a href="" class="btn text-white">
